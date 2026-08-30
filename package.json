@@ -1,0 +1,19 @@
+{
+  "name": "cmu-digital-humanity-datavis",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.1",
+    "slidev-theme-tahta": "^0.13.3",
+    "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "prettier-plugin-slidev": "^1.0.5"
+  }
+}
