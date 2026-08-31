@@ -1,0 +1,32 @@
+/* Deck-wide type overrides for slidev-theme-tahta.
+   Theme defaults: node_modules/slidev-theme-tahta/styles/tokens.css (--fs-*). */
+
+/* Markdown slide bodies (default / two-cols / statement) inherit 1rem from the
+   slide canvas — the theme sets no font-size there — so this is the lever that
+   actually moves bullets and prose. rem-based theme sizes are unaffected. */
+.slidev-layout {
+  font-size: 1.5rem;
+}
+
+/* The vs layout's panel heads are a hardcoded 1.25rem in the theme — smaller than
+   the body size set above, which inverts the hierarchy. Not tokenized, so it needs
+   a rule rather than a variable. */
+.vs-head {
+  font-size: 2.6rem;
+  margin-bottom: var(--sp-4);
+}
+
+/* Panel bullets inherit the slide body size; raise them to keep pace with the head. */
+.vs-side ul {
+  font-size: 1.8rem;
+}
+
+/* Token-driven roles. The [data-variant] selector matches the specificity of the
+   variant blocks in tokens.css so these win whichever variant is set. */
+:root,
+:root[data-variant] {
+  --fs-h2: 2.6rem; /* 2.25rem — topic / content titles */
+  --fs-lead: 1.7rem; /* 1.5rem — subtitles, lead paragraphs */
+  --fs-lead-xl: 2.1rem; /* 1.9rem — oversized lead (lead/metric) */
+  --fs-body: 1.35rem; /* 1.125rem — the image layout's text column */
+}
