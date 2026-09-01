@@ -21,6 +21,13 @@
   font-size: 1.8rem;
 }
 
+/* The showcase media pane carries a vignette (inset 160px shadow at 45%) meant to
+   settle a photo into the slide. Our showcase image is a UI screenshot on a pale
+   ground, so the vignette reads as a smudge over the chart rather than as depth. */
+.showcase-media::after {
+  box-shadow: none;
+}
+
 /* Token-driven roles. The [data-variant] selector matches the specificity of the
    variant blocks in tokens.css so these win whichever variant is set. */
 :root,
