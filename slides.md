@@ -1,7 +1,7 @@
 ---
 theme: slidev-theme-tahta
 themeConfig: { variant: notebook }
-title: "<em>Data Visualization:</em> how we perceive and communicate with surrounded world"
+title: "<em>Data Visualization:</em> how we perceive and communicate with the world around us"
 layout: cover
 kicker: CMU Digital Humanity 2026
 foot: " "
@@ -30,7 +30,7 @@ kicker: But first,
 title: What is <em>data?</em>
 ---
 
-Let's throw me some words
+Throw me some words
 
 ---
 layout: define
@@ -62,20 +62,20 @@ kicker: Let's get closer
 title: Do you have any <em>data about you?</em>
 ---
 
-Think about what you track, record, or post? Data doesn't need to be only about numbers!
+Think about what you track, record, or post. Data doesn't have to be about numbers!
 
 ---
 layout: showcase
 side: right
 image: /parliament-watch.png
-kicker: BKK based civic-tech
+kicker: BKK-based civic tech
 title: <span class="accent2">WeVis</span>
-subtitle: We use technology to help creating healthy democratic society through transparency and civic participation with <span class="accent2">open data</span>.
+subtitle: We use technology to help create a healthy democratic society through transparency and civic participation with <span class="accent2">open data</span>.
 foot: parliamentwatch.wevis.info
 ---
 
 ---
-title: Open data under our radar
+title: Open data on our radar
 ---
 
 - **Election** — [election69.wevis.info](https://election69.wevis.info)
@@ -96,7 +96,7 @@ foot: wevis.info/partyunityvisual
 ---
 layout: define
 term: Data Visualization (n.)
-definition: Using visual to represent data which help conveying a specific <span class="accent2">information</span>
+definition: Using visuals to represent data, which helps convey specific <span class="accent2">information</span>
 ---
 
 ---
@@ -110,7 +110,7 @@ foot: "Charles Joseph Minard, 1869 — Carte figurative des pertes successives e
 <Figure src="/minard-napoleon-1869.png" alt="Minard's 1869 flow map of Napoleon's 1812 Russian campaign: a tan band thinning from the Niemen to Moscow, a black band for the retreat, with a temperature chart beneath" />
 
 <!--
-Minard, 1869 — the Grande Armee's march on Russia, 1812-13.
+Minard, 1869 — the Grande Armée's march on Russia, 1812-13.
 
 Six variables in one image: troop count (band width), longitude, latitude,
 direction of travel (tan = advance, black = retreat), date, and temperature
@@ -149,8 +149,8 @@ Vauxhall vs Lambeth water-company comparison. A table, not this map.)
 -->
 
 ---
-kicker: Human just try to make sense of this world
-title: Data visualization as a way we <em>perceived</em>
+kicker: Humans just try to make sense of this world
+title: Data visualization as a way we <em>perceive</em>
 ---
 
 ```mermaid
@@ -179,7 +179,7 @@ title: Assumption loop
 flowchart LR
   Data --> Assume[Make assumption]
   Assume --> Vis[Visualization]
-  Vis --> Ask{Satisfy with<br/>information?}
+  Vis --> Ask{Satisfied with<br/>the information?}
   Ask -->|yes| Done[You're happy]
   Ask -->|no| Assume
 ```
@@ -189,7 +189,7 @@ flowchart LR
 <Figure src="/eda-meme.png" alt="Tuxedo Winnie the Pooh meme: plain Pooh captioned 'Try to vis until it looks nice', tuxedo Pooh captioned 'Exploratory Data Analysis (EDA)'" />
 
 ---
-kicker: And human always want to make a point
+kicker: And humans always want to make a point
 title: Data visualization as a way we <em>communicate</em>
 ---
 
@@ -225,7 +225,7 @@ foot: ordinaryunfold.com
 
 ---
 layout: bigtype
-title: Let's take some <em>breath</em>
+title: Let's take a <em>breath</em>
 ---
 
 ---
@@ -267,16 +267,16 @@ layout: showcase
 side: right
 image: /woke-game.png
 title: We can never be <em>neutral</em>
-subtitle: Personal agenda, bias, wordview, is always a reason we communicate
+subtitle: Personal agenda, bias, and worldview are always a reason we communicate
 ---
 
 [Woke Game is Bad Game?](https://ordinaryunfold.com/woke-game-is-bad-game)
 
 ---
-title: Correlation is not (always) a causation
+title: Correlation is not (always) causation
 ---
 
-_Visualization need supporting explanation_
+_Visualizations need a supporting explanation_
 
 <FigureRow>
   <Figure src="/spurious-correlations.png" alt="Tyler Vigen's Spurious Correlations: a line chart showing the popularity of the 'not sure if' meme tracking almost exactly with the number of air traffic controllers in Montana" caption="<a href='https://tylervigen.com/spurious-correlations' target='_blank'>Spurious Correlations</a> — two lines can match beautifully and mean nothing" />
@@ -284,10 +284,10 @@ _Visualization need supporting explanation_
 </FigureRow>
 
 ---
-title: Stereotype and Inclusiveness
+title: Stereotypes and Inclusiveness
 ---
 
-Pictogram: a society simplification
+Pictograms: a simplification of society
 
 <Figure src="/wc-pictograms.jpg" alt="A set of restroom pictograms: WC lettering, a paired man and woman sign, a man alone, a woman alone, a figure in a skirt changing a baby, and a figure in a wheelchair" />
 
@@ -300,7 +300,7 @@ title: Anything left to <em>ask</em> or <em>discuss?</em>
 ---
 layout: panels
 kicker: Grab a pen on your way out
-title: Self reflection
+title: Self-reflection
 panels:
   - { icon: "lucide:heart", title: What you feel }
   - { icon: "lucide:lightbulb", title: What you learned }

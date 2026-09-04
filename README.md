@@ -1,4 +1,4 @@
-# Data Visualization: how we perceive and communicate with the surrounded world
+# Data Visualization: how we perceive and communicate with the world around us
 
 Slides for **CMU Digital Humanity 2026**, by Withee Poositasai (Lookkid).
 
@@ -21,7 +21,7 @@ The slides, prose, and images authored for this deck are licensed under
 You are free to share and adapt this material, including commercially, as long as
 you give appropriate credit. Suggested attribution:
 
-> "Data Visualization: how we perceive and communicate with the surrounded world"
+> "Data Visualization: how we perceive and communicate with the world around us"
 > by Withee Poositasai, CC BY 4.0 — https://github.com/Th1nkK1D/cmu-digital-humanity-datavis
 
 The build configuration and stylesheet (`package.json`, `style.css`) are available

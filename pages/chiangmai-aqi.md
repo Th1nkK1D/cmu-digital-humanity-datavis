@@ -1,7 +1,7 @@
 ---
 layout: stats
 columns: 4
-title: Chiangmai monthly average <span class="accent2">US AQI</span> in 2026
+title: Chiang Mai monthly average <span class="accent2">US AQI</span> in 2026
 foot: "Source: aqicn.org/historical/#city:chiang-mai"
 stats:
   - { value: 80, label: January, tone: warn }
