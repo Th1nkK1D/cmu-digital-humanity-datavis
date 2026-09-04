@@ -306,3 +306,12 @@ panels:
   - { icon: "lucide:lightbulb", title: What you learned }
   - { icon: "lucide:message-circle", title: Whatever you want to tell me }
 ---
+
+---
+kicker: Take it with you
+---
+
+<Callout icon="lucide:github">
+  <a href="https://github.com/Th1nkK1D/cmu-digital-humanity-datavis" target="_blank">github.com/Th1nkK1D/cmu-digital-humanity-datavis</a>
+  — source code of this slide.
+</Callout>
